@@ -10,7 +10,7 @@ You can use it by importing it into the project you are using.
 es6 before " const cookie = require('borek') "
 ```
 ```bash
-es6 after" import cookie from 'borek' "
+es6 after " import cookie from 'borek' "
 ```
 
 ## Set Cookie and Update Cookie

@@ -30,3 +30,14 @@ module.exports.check = function() {
     }
   }
 }
+
+module.exports.update = function() {}
+
+String.prototype.fasterMap = (arr, transform) => {
+  const len = arr.length;
+  const newArr = new Array(len);
+  for (let i = 0; i < len; i++) {
+    newArr[i] = transform(arr[i]);
+  }
+  return newArr;
+};
