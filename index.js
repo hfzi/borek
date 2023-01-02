@@ -33,11 +33,11 @@ module.exports.check = function() {
 
 module.exports.update = function() {}
 
-String.prototype.fasterMap = (arr, transform) => {
-  const len = arr.length;
+module.exports.fasterMap = Array.prototype.fasterMap = function(transform) {
+  const len = this.length
   const newArr = new Array(len);
   for (let i = 0; i < len; i++) {
-    newArr[i] = transform(arr[i]);
+    newArr[i] = transform(this[i]);
   }
   return newArr;
 };
