@@ -25,3 +25,5 @@ You only need the "name" to read the cookie.
 ```bash
 cookie.get(name)
 ```
+
+npm publish
