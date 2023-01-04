@@ -34,4 +34,3 @@ var arr = [1, 4, 3, 9, 11]
 arr.fastermap(x => x > 5)
 returns 9, 11
 ```
-
