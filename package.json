@@ -1,6 +1,6 @@
 {
   "name": "borek",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Easy cookie commands",
   "main": "index.js",
   "scripts": {

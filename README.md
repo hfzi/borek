@@ -26,4 +26,12 @@ You only need the "name" to read the cookie.
 cookie.get(name)
 ```
 
-npm publish
+## ".fasterMap()" method fast then ".map()"
+The ".fasterMap()" method is almost twice as fast as the ".map()" ten. 
+Usage is the same.
+```bash
+var arr = [1, 4, 3, 9, 11]
+arr.fastermap(x => x > 5)
+returns 9, 11
+```
+
