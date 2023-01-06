@@ -38,10 +38,32 @@ es6 after  " import 'borek' "
 The ".fasterMap()" method is almost twice as fast as the ".map()" ten. 
 Usage is the same.
 ```bash
-var arr = [1, 4, 3, 9, 11]
+var arr = [1, 4, 3, 3, 9, 11]
 arr.fastermap(x => x > 5)
 ```
 
 ```bash
 returns 9, 11
+```
+
+## ".remove()" method
+
+```bash
+var arr = [1, 4, 3, 3, 9, 11]
+arr.remove(3)
+```
+
+```bash
+returns [1, 4, 3, 9, 11]
+```
+
+## ".removeAll()" method
+
+```bash
+var arr = [1, 4, 3, 3, 9, 11]
+arr.removeAll(3)
+```
+
+```bash
+returns [1, 4, 9, 11]
 ```
