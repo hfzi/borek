@@ -1,7 +1,7 @@
 {
   "name": "borek",
-  "version": "1.0.4",
-  "description": "Easy cookie commands",
+  "version": "1.0.5",
+  "description": "Easy cookie commands and Array methods",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
